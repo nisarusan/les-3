@@ -1,1 +1,52 @@
-/*Schrijf hier jouw CSS*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    /*border: 2px dashed green;*/
+    height: 100vh;
+}
+
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    /*border: 1px dashed red;*/
+
+}
+
+.inner-row {
+    display: flex;
+    height: 100vh;
+    /*border: 1px dashed orange;*/
+
+}
+
+nav {
+    flex-basis: 20vw;
+}
+header {
+    flex-basis: 15vh;
+}
+article {
+    flex-basis: 80vh;
+}
+
+footer {
+    flex-basis: 10vh;
+}
+
+aside {
+    flex-basis: 30vw;
+}
+
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px dashed blue;*/
+    flex-basis: 100vw;
+}
