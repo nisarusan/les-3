@@ -1,1 +1,40 @@
 /*Schrijf hier jouw CSS*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+nav {
+    flex-basis: 20vw;
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+}
+
+
+header {
+    flex-basis: 15vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    flex-basis: 70vh;
+}
+
+footer {
+    flex-basis: 15vh;
+}
